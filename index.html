@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>チラシ音声ガイド</title>
+    <title>読み上げくん</title>
     <style>
         body {
             margin: 0;
@@ -242,7 +242,7 @@
             app.innerHTML = `
                 <div class="container">
                     <div class="header">
-                        <h1>チラシ音声ガイド</h1>
+                        <h1>YomiageKUN</h1>
                     </div>
                     <div class="grid-container">
                         ${flyers.map(flyer => `
@@ -280,10 +280,6 @@
                             <button class="speed-button active" data-speed="1.0">1.0x</button>
                             <button class="speed-button" data-speed="1.5">1.5x</button>
                             <button class="speed-button" data-speed="2.0">2.0x</button>
-                        </div>
-                        <div class="url-link-container">
-                            <h3>このページへの直接リンク</h3>
-                            <a id="url-link" class="url-link" href="#"></a>
                         </div>
                     </div>
                 </div>
